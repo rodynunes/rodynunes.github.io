@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #e6e6e6;
+        }
+
+        #menu {
+            
+            background-color: aquamarine;
+            width: 100%;
+            height: 80px;
+            padding: 50px;
+            text-align: center;
+        }
+
+        
+
+        #menu a {
+            text-decoration: none;            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            color: white;
+            font-weight: 400;
+            margin: 40px;   
+
+            
+        }
+
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            font-weight: 600;
+            font-family: sans-serif;
+            color: rgb(48, 94, 48);
+            text-align: center;
+            
+        }
+
+        h3 {
+            font-size: 20px;
+            color: brown;
+            font-weight: 400;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin: 80px, 10px ;
+        }
+
+        .foto{
+            width: 200px;
+            height: auto;
+            margin: 30px;
+            
+        }
+
+        #meus_dados {
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 40px;;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 80px;
+            
+        }
+
+
+
+        
+    </style>
     
     <title>Portifólio Rodney Nunes</title>
 </head>
 <body>
-    <ul>
-        <li>
+    <ul id="menu">
+        <li >
             <a href="#meus_dados"> Meus dados pessoais </a>
         </li>
         <li>
@@ -20,16 +96,16 @@
     <H1>RODNEY DRUMMOND NUNES</H1>
     <H3>Turba 30 - Tribo B</H3>
 
-    <img src="rodney.jpg" alt="foto rodney nunes">
+    <img class ="foto" src="rodney.jpg" alt="foto rodney nunes">
 
-    <H4 id="meus_dados">Meus Dados Pessoais</H4>
+    <H3 id="meus_dados">Meus Dados Pessoais</H4>
     <p>Nome: Rodney Drummond Nunes - 49 anos</p>
     <br>
     <p>Brasileiro, Natural de São Paulo - SP</p>
     <br>
 
-    <H4 id="quali">Qualificações</H4>
-    <h5>Veja alguns dos meus conhecimentos</h5>
+    <H3>Qualificações</H4>
+    <h4>Veja alguns dos meus conhecimentos</h5>
         <ul>
             <li>
                 Linux
@@ -54,7 +130,7 @@
     <br>
     <p>Tenho dois filhos, o mais velho com 14 anos e a mais nova com apenas 7 anos, são sem dúvida meu maior orgulho e meu maior sonho realizado.</p>
     <br>
-    <p>Essa foto mostra como somos unidos e felizes. <img src="familia.jpg" alt="minha familia"></p>
+    <p>Essa foto mostra como somos unidos e felizes. <img class="foto" src="familia.jpg" alt="minha familia"></p>
     <br>
     <p>Essa foto mostra como somos unidos e felizes.</p>
 
